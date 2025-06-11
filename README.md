@@ -89,27 +89,6 @@ Prompt: "I lo" → "ve machine learning"
 Check 'sanity_checks_comparison.png' in the repo
 
 
-### Key Findings from Sanity Checks
-
-1. ** Infrastructure Validation**: Training pipeline works correctly
-2. ** Loss Masking**: Selective loss computation implemented properly  
-3. ** Text Generation**: Deterministic generation produces expected outputs
-4. ** Memorization Capability**: Single-layer transformer can memorize short sequences
-5. ** Convergence Stability**: Training converges reliably without divergence
-
-### Technical Implementation Details
-
-#### Code Modifications Made
-- **Loss Masking Function**: `create_mask_for_loss()` for selective token learning
-- **Character Tokenization**: Simple character-level tokenizer for algorithmic tasks
-- **Generation Pipeline**: Low-temperature sampling for deterministic output
-- **Evaluation Metrics**: Exact-match validation for memorization tasks
-
-#### Challenges Overcome
-- **Padding Token Handling**: Proper masking of padding tokens in loss computation
-- **Position-Specific Masking**: Correct implementation of first-n token masking
-- **Generation Stability**: Temperature tuning for consistent, exact outputs
-- **Memory Optimization**: Efficient implementation for Colab GPU constraints
 
 ---
 
