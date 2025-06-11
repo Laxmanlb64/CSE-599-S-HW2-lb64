@@ -1,6 +1,6 @@
 # CSE 493S/599S Homework 2: Parts 1.5 - 2.2 Results Report
 
-**Student:** [Your Name]  
+**Student:** Laxman Balamurugan (lb64@uw.edu)  
 **Date:** June 11, 2025  
 **Assignment:** Transformer Implementation and Algorithmic Learning
 
